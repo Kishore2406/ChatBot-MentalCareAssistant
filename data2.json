@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"],
+            "responses": ["Hello, how can I help you?", "Hi there, what can I do for you?", "Hey, how are you feeling today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "Talk to you soon"],
+            "responses": ["Goodbye, take care!", "See you later!", "Hope to talk to you soon!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "Appreciate it"],
+            "responses": ["You're welcome!", "My pleasure!", "Glad I could help!"]
+        },
+        {
+            "tag": "affirmation",
+            "patterns": ["Yes", "Yeah", "Sure", "Absolutely", "Definitely"],
+            "responses": ["Great to hear!", "That's fantastic!", "Glad to hear that!"]
+        },
+        {
+            "tag": "negation",
+            "patterns": ["No", "Not really", "Not sure", "I don't think so", "I'm not sure"],
+            "responses": ["Okay, let me know if you change your mind.", "No problem, take your time.", "That's alright."]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": ["I'm feeling depressed", "I'm anxious", "I'm stressed", "I'm feeling down", "I'm feeling low", "I'm feeling sad", "I'm not feeling good"],
+            "responses": ["I'm sorry to hear that. Can you tell me more about what's been bothering you?", "It sounds like you're going through a tough time. Would you like to talk about it?", "It's okay to not feel okay. I'm here to listen."]
+        },
+        {
+            "tag": "mental_health_help",
+            "patterns": ["What can I do to feel better?", "How can I improve my mental health?", "What are some ways to manage stress?"],
+            "responses": ["There are many things you can do to improve your mental health. Some things that might help include exercise, meditation, getting enough sleep, and talking to a therapist or counselor. What works best for you may depend on your individual needs and preferences."]
+        },
+        {
+            "tag": "mental_health_resources",
+            "patterns": ["Are there any mental health resources available?", "Where can I find help for my mental health?", "Are there any support groups for mental health?"],
+            "responses": ["You can watch this <a href='https://youtu.be/3QIfkeA6HBY' target='_blank'>Click Here</a>"]
+        }
+    ]
+}
